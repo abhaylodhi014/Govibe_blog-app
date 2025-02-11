@@ -3,6 +3,17 @@
 Welcome to **GoVibe**, a dynamic full-stack blog application designed for both **Viewers** and **Authors**. This app allows seamless interaction with blog content, where viewers can read posts without signing in, while authors have the capability to create, edit, and manage their blogs and comments.
 
 ---
+## 🚧 **Deployment**
+
+The application is deployed and fully functional online.
+
+### 🔗 **Live Links:**
+- **Frontend (Vercel):** [GoVibe Frontend](https://go-vibe-frontend.vercel.app/)
+- **Backend (Render):** [GoVibe API](https://go-vibe-backend.onrender.com/api)
+
+### 🔸 **Using the App:**
+Visit the [GoVibe App](https://go-vibe-frontend.vercel.app/) to experience seamless blogging. You can explore as a viewer or sign in using Google to create and manage your own posts.
+
 
 ## 📄 **Features**
 
