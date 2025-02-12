@@ -170,12 +170,6 @@ Contributions are welcome! Feel free to fork the repository, submit pull request
 
 ---
 
-## 📅 **License**
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 📢 **Feedback & Suggestions**
 
 Have ideas or feedback? Reach out through the **Contact Us** page or create an issue in the repository.
