@@ -75,7 +75,7 @@ cd govibe
 ```
 
 ### 2. **Setup Frontend (Next.js)**
-```bash
+```npm
 cd frontend
 npm install
 ```
@@ -86,10 +86,14 @@ Create a `.env` file in the `frontend` directory:
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
 ```
 
 ### 3. **Setup Backend (Node.js)**
-```bash
+```npm
 cd ../backend
 npm install
 ```
@@ -101,7 +105,9 @@ MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-FIREBASE_ADMIN_SDK=your_firebase_admin_credentials
+JWT_SECRET=your_jwt_secret
+ACCESS_TOKEN_SECRET=your_access_token
+REFRESH_TOKEN_SECRET=your_access_token
 ```
 
 ---
